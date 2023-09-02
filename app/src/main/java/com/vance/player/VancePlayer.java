@@ -126,7 +126,7 @@ public class VancePlayer implements SurfaceHolder.Callback {
             String msg = null;
             switch (errorCode) {
                 case FFMPEG_CAN_NOT_OPEN_URL:
-                    msg = "打不开视频";
+                    msg = "打不开视频,自行添加权限代码,demo.mp4在项目下";
                     break;
                 case FFMPEG_CAN_NOT_FIND_STREAMS:
                     msg = "找不到流媒体";
